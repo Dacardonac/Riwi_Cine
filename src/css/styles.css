@@ -40,6 +40,8 @@ a {
 
 }
 
+
+
 .nav a:hover {
     background-color: var(--color-hover);
     color: var(--blanco);
@@ -60,20 +62,24 @@ section h2 {
 }
 
 img {
+    height: 400px;
     width: 250px;
+    border: 4px solid #530000;
 }
 
 .peliculas-estreno {
+    background-color: var(--blanco);
     width: 325px;
     padding: 1rem;
-    border: 2px solid #530000;
-    flex-wrap: wrap;
+    border: 3px solid #530000;
+    border-radius: 1rem;
 }
 
 .peliculas-estreno:hover {
     width: 400px;
     height: 550px;
     cursor: pointer;
+    transition: ease linear 10s;
 }
 
 #cartelera {
