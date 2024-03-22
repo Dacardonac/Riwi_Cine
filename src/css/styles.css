@@ -1,16 +1,27 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
+:root {
+    --rojo-sangre: #9C0001;
+    --color-texto: #ffffff;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+    color: var(--color-texto);
+}
+
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #9C0001;
-    color: #ffffff;
+    background-color: var(--rojo-sangre);
+    color: var(--color-texto);
+    padding: 0px 20px;
 }
 
