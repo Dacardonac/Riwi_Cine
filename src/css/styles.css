@@ -30,3 +30,22 @@ a {
     color: var(--color-texto);
     padding-left: 20px;
 }
+
+#estrenos {
+    text-align: center;
+}
+
+#estrenos img {
+    width: 250px;
+    border: 2px solid black;
+    flex-wrap: wrap;
+}
+
+.footer {
+    background-color: var(--rojo-sangre);
+    color: var(--color-texto);
+}
+
+.footer a {
+    color: var(--color-texto);
+}
