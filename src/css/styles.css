@@ -162,3 +162,7 @@ button a {
     border-radius: 10px;
     cursor: pointer;
 }
+
+.formulario button:hover {
+    background-color: var(--color-hover);
+}
